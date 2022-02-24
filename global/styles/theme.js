@@ -8,29 +8,25 @@ const { width, height } = Dimensions.get("window");
 export const defaultTheme = {
   mode: "default",
 
-  COLOR_PRIMARY: Constants.Colors.darkBlue63,
-  COLOR_PRIMARY_TEXT: Constants.Colors.white,
-  COLOR_PRIMARY_TEXT_2: Constants.Colors.lightGray80,
+  COLOR_PRIMARY: "#2F3E89",
+  COLOR_SECONDARY: "#2F3E89",
+  COLOR_ACCENT: "#475FDA",
 
-  COLOR_SECONDARY: Constants.Colors.white,
-  COLOR_SECONDARY_TEXT: Constants.Colors.darkGray100,
-  COLOR_SECONDARY_TEXT_2: Constants.Colors.lightGray80,
+  COLOR_BACKGROUND_MAIN: "#F7F6F9",
+  COLOR_BACKGROUND_TABNAV: Constants.Colors.white,
 
-  COLOR_TERTIARY: Constants.Colors.iris100,
-  COLOR_TERTIARY_TEXT: Constants.Colors.white,
-  COLOR_TERTIARY_TEXT_2: Constants.Colors.lightGray80,
+  COLOR_BORDER: "#dddddd",
 
-  COLOR_QUATERNARY: Constants.Colors.iris80,
-  COLOR_QUATERNARY_TEXT: Constants.Colors.white,
-  COLOR_QUATERNARY_TEXT_2: Constants.Colors.lightGray80,
+  COLOR_TEXT_BG_PRIMARY: Constants.Colors.black,
+  COLOR_TEXT_BG_SECONDARY: "#78777A",
+  COLOR_TEXT_BG_ACCENT: "#4b5fce",
 
-  COLOR_QUATERNARY: Constants.Colors.iris80,
-  COLOR_QUATERNARY_TEXT: Constants.Colors.white,
-  COLOR_QUATERNARY_TEXT_2: Constants.Colors.lightGray80,
+  COLOR_TEXT_PRIMARY: Constants.Colors.white,
+  COLOR_TEXT_SECONDARY: "#6E77A5",
+  COLOR_TEXT_ACCENT: "#4b5fce",
 
-  COLOR_FIVETERNARY: Constants.Colors.iris60,
-  COLOR_FIVETERNARY_TEXT: Constants.Colors.white,
-  COLOR_FIVETERNARY_TEXT_2: Constants.Colors.lightGray80,
+  COLOR_TABNAV_ICON: Constants.Colors.black,
+  COLOR_TABNAV_ICON_DISABLED: "#DDDDDD",
 
   FontSize: {
     ...Constants.FontSize,
